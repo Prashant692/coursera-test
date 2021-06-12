@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Selectors</title>
+	<meta charset="utf-8">
+	<style>
+		/* all h2 elements*/
+		h2{
+			color: red;
+			text-align: center;
+		}
+		/* all with class="highlight"*/
+		.highlight{
+			font-size: 20px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: magenta;
+			opacity: 1.02;
+		}
+
+	/*element with id="mainPoint"*/
+	#mainPoint {
+		color: purple;
+		text-align: center;
+	}
+
+	/* all p and h1 elements */
+	h1,p{
+		color: blue;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+
+<h1>Simple Selectors (h1)</h1>
+<h2>Subheading 1</h2>
+	<p class="highlight">
+		CSS works by associating rules with HTML elements. These rule governs how the contents of specified elements should be displayed.A CSS rule contains two parts: a selector and a declaration.
+	</p>
+	<p class="highlight">Para with attribute clss="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	<h2>Subheading 2(h2)</h2>
+	<p>Same as stated above as a rule. I have to memorise all the fundamentals as only  funda things are provided here. No ADVANCED CONCEPTS. </p>
+	<div>This is the main point of the article. So, attrtibute
+		<span id="mainPoint">id="mainPoint".</span></div>
+</body>
+</html>

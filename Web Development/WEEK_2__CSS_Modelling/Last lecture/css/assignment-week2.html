@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Menu</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+
+        h1{
+        	margin-bottom: 20px;
+        	margin-bottom: 40px;
+        	text-align: center;
+        }
+
+        h4{
+            width: 100px;
+            height: 20px;
+            text-align: center;
+        	position: relative;
+        	border: 1px solid black;
+        	float: right ;
+        	background-color: yellow;
+        	margin: 0px 0px 0px 0px;
+        	//padding:  0px 0px 0px 0px;
+        }
+
+        div.conbox{
+        	float: left;
+        	//margin-right: 10px;
+        	margin: 10px 10px 10px 10px;
+        	background-color: green;
+        	//height: 150px;
+        	width: 300px;
+        	
+            /*width
+            height: 100px;*/
+
+        }
+
+        div.conbox3{
+        	float: left;
+        	//margin-right: 10px;
+        	//margin-top: 10px;
+        	margin: 10px 10px 10px 10px;
+        	clear: both;
+        	background-color: green;
+        	//height: 150px;
+        	width: 300px;
+
+        }
+
+       /* div{
+        	background-color: green;
+        	width: 300px;
+            height: 100px;
+
+	  	
+        }*/
+        
+        p{
+        	clear: right;
+        	padding: 10px;
+        	font-style: italic;
+        	font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        @media(min-width: 992px;){
+             #lg-1{
+                 // width: 500px;
+             }
+        }
+
+        @media(min-width: 768px;) and (max-width: 991px;){
+        	#md-1{
+                 // width: 300px;
+        	}
+
+        }
+
+        @media(max-width: 767px;){
+              #sm-1{
+               //width: 100px;
+              }
+        }
+
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+<div class="conbox" id="lg-1 md-1 sm-1">
+ <div class="d">
+ 	<h4>Chicken</h4>
+ 	<p>Del lado bueno, hay mucha tele por contar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt et dolore magna eliqua.</p>
+ </div>
+</div>
+
+
+
+
+ <div class="conbox">
+ 	<div class="d" id="lg-1 md-1 sm-1">
+ 		<h4>Beef</h4>
+ 		<p>Del lado bueno, hay mucha tele por contar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt et dolore magna eliqua</p>
+ 	</div>
+ </div>
+ 
+
+ <div class="conbox3">
+ 	<div class="d" id="lg-1 md-1 sm-1">
+ 		<h4>Sushi</h4>
+ 		<p>Del lado bueno, hay mucha tele por contar. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt et dolore magna eliqua</p>
+ 	</div>
+ </div>
+
+</body>
+</html>
