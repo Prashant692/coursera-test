@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Box Model</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+				box-sizing: border-box;/*selects every element*/
+		}
+		body{
+			/*margin: 0;
+			padding: 0;(overruled by browser default margin)*/
+			background-color: gray; /*Most browsers have 16px*/
+			/*	box-sizing: border-box;(not inherited to child element)*/
+       }
+       #box{
+       	background-color: blue;
+       	padding: 10px;/* top right bottom left*/
+       	border: 5px solid black; 
+        margin-top: 20px;/*	margin: 40px;(40 top right bottom left)*/
+       	width: 300px; height: 50px;
+       	box-sizing: border-box;/*takes 300px(width)=border margin*/
+       	/*content-box is default box-sizing*/
+       	overflow: auto; /*default visible*/
+       }
+
+       #content{
+             background-color: #90ee90; //green
+       }
+       h1{
+       	margin-bottom: 30px;
+       }
+		
+	</style>
+</head>
+<body>
+	<h1>Box Model</h1>
+<div id="box">
+	<div id="content"> Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar.
+</div>
+</div>
+<div> Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay mucha tele por contar. Del lado bueno, hay</div>
+</body>
+</html>
